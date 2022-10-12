@@ -1,0 +1,228 @@
+/* ================== md device =================== */
+@media screen and (min-width: 991px) and (max-width: 1199px){
+    /* header part */
+    header {
+        margin-bottom: 80px;
+    }
+    .header-content {
+        padding-top: 130px;
+    }
+    .header-content h1 {
+        font-size: 45px;
+    }
+    .header-content h3{
+        font-size: 30px;
+    }
+    .header-content p{
+        font-size: 16px !important;
+    }
+    /* about part */
+    #about {
+        margin-bottom: 20px;
+    }
+    .about-right h2{
+        padding-top: 25px;
+    }
+    .about-right p{
+        padding-top: 20px !important;
+        padding-bottom: 25px;
+    }
+    /* skill section */
+    #skill {
+        margin-bottom: 2px;
+    }
+    .progress-sec{
+        padding-top: 10px;
+    }
+    /* service section */
+    .service-body {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    /* contact section */
+    #contact {
+        margin-top: 50px;
+    }
+    .contact-left {
+        flex-basis: 40%;
+    }
+    .contact-right {
+        flex-basis: 57%;
+        margin-top: 50px;
+    }
+}
+
+/* ================== md device =================== */
+@media screen and (min-width: 767px) and (max-width: 991px){
+    /* header part */
+    header {
+        margin-bottom: 80px;
+    }
+    .header-content {
+        padding-top: 130px;
+    }
+    .header-content h1 {
+        font-size: 45px;
+    }
+    .header-content h3{
+        font-size: 30px;
+    }
+    .header-content p{
+        font-size: 16px !important;
+    }
+    /* about part */
+    #about {
+        margin-bottom: 20px;
+    }
+    .about-left {
+        flex-basis: 100%;
+    }
+    .about-right {
+        flex-basis: 100%;
+    }
+    .about-right h2{
+        padding-top: 25px;
+    }
+    .about-right p{
+        padding-top: 20px !important;
+        padding-bottom: 25px;
+    }
+    /* skill section */
+    #skill {
+        margin-bottom: 2px;
+    }
+    .progress-sec{
+        padding-top: 10px;
+    }
+    /* service section */
+    .service-body {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    /* contact section */
+    #contact {
+        margin-top: 50px;
+    }
+    .contact-left {
+        flex-basis: 100%;
+    }
+    .contact-right {
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+}
+
+/* ================== sm device =================== */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    /* header part */
+    header {
+        margin-bottom: 80px;
+    }
+    .header-content {
+        padding-top: 130px;
+    }
+    .header-content h1 {
+        font-size: 45px;
+    }
+    .header-content h3{
+        font-size: 30px;
+    }
+    .header-content p{
+        font-size: 16px !important;
+    }
+    /* about part */
+    #about {
+        margin-bottom: 20px;
+    }
+    .about-left {
+        flex-basis: 100%;
+    }
+    .about-right {
+        flex-basis: 100%;
+    }
+    .about-right h2{
+        padding-top: 25px;
+    }
+    .about-right p{
+        padding-top: 20px !important;
+        padding-bottom: 25px;
+    }
+    /* skill section */
+    #skill {
+        margin-bottom: 2px;
+    }
+    .progress-sec{
+        padding-top: 10px;
+    }
+    /* service section */
+    .service-body {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+    /* contact section */
+    #contact {
+        margin-top: 50px;
+    }
+    .contact-left {
+        flex-basis: 100%;
+    }
+    .contact-right {
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+}
+
+/* ================== xsm device =================== */
+@media screen and (min-width: 0px) and (max-width: 576px){
+    /* header part */
+    header {
+        margin-bottom: 80px;
+    }
+    .header-content {
+        padding-top: 130px;
+    }
+    .header-content h1 {
+        font-size: 45px;
+    }
+    .header-content h3{
+        font-size: 30px;
+    }
+    .header-content p{
+        font-size: 16px !important;
+    }
+    /* about part */
+    #about {
+        margin-bottom: 20px;
+    }
+    .about-left img {
+        width: 100%;
+    }
+    .about-left {
+        flex-basis: 100%;
+    }
+    .about-right {
+        flex-basis: 100%;
+    }
+    .about-right h2{
+        padding-top: 25px;
+    }
+    .about-right p{
+        padding-top: 20px !important;
+        padding-bottom: 25px;
+    }
+    /* skill section */
+    #skill {
+        margin-bottom: 2px;
+    }
+    .progress-sec{
+        padding-top: 10px;
+    }
+    /* contact section */
+    #contact {
+        margin-top: 50px;
+    }
+    .contact-left {
+        flex-basis: 100%;
+    }
+    .contact-right {
+        flex-basis: 100%;
+        margin-top: 40px;
+    }
+}
